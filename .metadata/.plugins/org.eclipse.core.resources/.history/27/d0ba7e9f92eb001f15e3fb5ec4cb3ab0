@@ -1,0 +1,5 @@
+package com.productcatalog.service;
+
+public interface IProductCatalogService {
+
+}

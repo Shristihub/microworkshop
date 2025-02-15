@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+     name: PRODUCT-CATALOG
+#every service should register to this url
+eureka:
+  client:
+    service-url:
+      default-zone: http://EUREKA-REGISTRY

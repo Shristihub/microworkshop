@@ -1,0 +1,6 @@
+package com.todoapp.model;
+
+@Entity
+public class Todo {
+
+}

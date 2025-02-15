@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: Spring-bookapp-jpa
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/jfsjunbatch
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 8081
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always 
+
+			
+			
+        

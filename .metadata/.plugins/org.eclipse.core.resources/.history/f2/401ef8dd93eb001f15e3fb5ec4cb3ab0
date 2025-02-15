@@ -1,0 +1,30 @@
+package com.productcatalog.service;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.productcatalog.model.Product;
+
+@Service
+public class ProductCatalogServiceImpl implements IProductCatalogService{
+
+	@Override
+	public List<Product> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getByCategory(String category) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Product getById(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

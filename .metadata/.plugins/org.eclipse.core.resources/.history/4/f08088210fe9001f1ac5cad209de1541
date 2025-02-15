@@ -1,0 +1,6 @@
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: health
+        

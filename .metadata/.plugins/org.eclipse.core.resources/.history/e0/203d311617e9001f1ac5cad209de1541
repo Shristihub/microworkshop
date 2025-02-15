@@ -1,0 +1,7 @@
+management:
+  endpoints:
+    web:
+     base-path: /dashboard
+     exposure:
+        include: '*'
+        exclude: beans, metrics

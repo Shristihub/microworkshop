@@ -1,0 +1,11 @@
+management:
+  endpoints:
+    web:
+      base-path: dashboard
+      exposure:
+        include: '*'
+        exclude: env
+  endpoint:
+    health:
+      show-details: always
+        
