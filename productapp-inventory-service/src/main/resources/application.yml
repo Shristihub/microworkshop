@@ -1,0 +1,11 @@
+server:
+  port: 8083
+
+spring:
+  application:
+     name: PRODUCT-INVENTORY
+#every service should register to this url
+eureka:
+  client:
+    service-url:
+      default-zone: http://EUREKA-REGISTRY
